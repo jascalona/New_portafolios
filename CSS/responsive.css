@@ -5,6 +5,12 @@
         padding: 0;
     }
 
+    main .baner{
+        font-size: 13px;
+        padding: 20px;
+        border-radius: 3px;
+    }
+
     .container-header .img-perfil{
         width: 35%;
         margin-top: -30%;

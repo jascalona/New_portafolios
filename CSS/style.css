@@ -177,10 +177,19 @@ main{
     font-size: 10px;
 }
 
+main .baner{
+    font-size: 18px;
+    background: #f3f3f339;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
 section {
     max-width: 90%;
     margin: 20px auto;
 }
+
 
 /*SECTION SERVICES*/
 article{
