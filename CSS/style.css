@@ -93,6 +93,7 @@ main{
     background: #5e5d5d27;
     max-width: 60%;
     margin:  5% auto;
+    height: auto;
     padding: 20px;
     border-radius: 10px;
 }
@@ -191,6 +192,42 @@ section {
     margin: 20px auto;
 }
 
+/*SECTION ABOUT*/
+.container-about{
+    padding: 1%;
+}
+
+.item-about{
+    background: #bcbcbc11;
+    margin-top: 5%;
+    border: solid 1px #f3f3f32c;
+    border-radius: 10px 60px ;
+    padding: 6%;
+    line-height: 2;
+}
+
+.item-about h5{
+    font-size: 25px;
+    color: #f3f3f3f3;
+}
+
+.item-about .contenct-about{
+    color: #d8d6d6;
+}
+
+.item-about .btn-about{
+    margin-top: 5%;
+}
+
+.item-about .btn-about a{
+    background: #0000009c;
+    border: solid 1px #f3f3f32c;
+    border-radius: 15px;
+    padding: 3%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
 
 /*SECTION SERVICES*/
 article{
@@ -267,3 +304,60 @@ footer .icons a{
     padding: 5px;
 }
 
+
+/*SECTIONCERTIFICATES*/
+.gallery{
+    max-width: 95%;
+    margin: 25px auto;
+    padding: 4%;
+    display: grid;
+    gap: 5%;
+}
+
+.item-gallery{
+    border-radius: 20px;
+    padding: 5%;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    max-width: 400px;
+}
+
+.item-gallery img{
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    min-height: auto;
+    display: block;
+    margin: auto;
+}
+
+.item-gallery .title{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.item-gallery p{
+    font-size: 18px;
+}
+
+/*responsive item-gallery*/
+@media (min-width: 992px) {
+    .gallery{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 991px) {
+    .gallery{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 499px) {
+    .gallery{
+        grid-template-columns: 1fr;
+        gap: 1%;
+    }
+}
