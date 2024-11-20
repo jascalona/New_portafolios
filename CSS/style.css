@@ -229,6 +229,20 @@ section {
     font-size: 13px;
 }
 
+@media (max-width: 750px) {
+    .item-about{
+        padding: 10%;
+    }
+
+    .item-about h5{
+        font-size: 23px;
+    }
+
+    .item-about .contenct-about{
+        font-size: 14px;
+    }
+}
+
 /*SECTION SERVICES*/
 article{
     color: #f3f3f3f3;
