@@ -261,7 +261,7 @@ section {
     width: 45px;
     height: 45px;
     transform-style: preserve-3d;
-    animation:  rotate 30s linear infinite;
+    animation:  rotate 45s linear infinite;
 }
 
 @keyframes rotate {
