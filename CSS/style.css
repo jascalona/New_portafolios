@@ -243,6 +243,63 @@ section {
     }
 }
 
+/*SECTION ABOUT ICON*/
+.gallery-icons{
+    max-width: 100%;
+    margin: 0 auto;
+    height: 200px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.slider-icons{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    transform-style: preserve-3d;
+    animation:  rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.slider-icons span{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*35deg)) translateZ(250px);
+}
+
+.slider-icons span img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;    
+}
+
+.slider-icons span:hover img{
+    transform: translateY(-10px) scale(1.1);
+}
+
+
+
 /*SECTION SERVICES*/
 article{
     color: #f3f3f3f3;
