@@ -432,3 +432,43 @@ footer .icons a{
         gap: 1%;
     }
 }
+
+/*Gallery Resumen*/
+.gallery_resume{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.gallery_resume .linear{
+    border-bottom: solid 1px #9f9e9e8e;
+}
+
+.card{
+    background: #bcbcbc11;
+    color: #d7d6d6f3;
+    padding: 30px;
+    width: 350px;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.card h4{
+    font-size: 25px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.card h6{
+    font-size: 15px;
+}
+
+.card p small{
+    color: #fff;
+}
+
+
+.card p{
+    font-size: 13px;
+}
