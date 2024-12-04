@@ -437,9 +437,31 @@ footer .icons a{
 .gallery_resume{
     max-width: 100%;
     margin: 0 auto;
-    display: flex;
-
+    padding: 2%;
+    display: grid;
+    gap: 4%;
 }
+
+/*SESION RESPONSIVA*/
+@media (min-width: 992px) {
+    .gallery_resume{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 991px) {
+    .gallery_resume{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 899px) {
+    .gallery_resume{
+        grid-template-columns: 1fr;
+        gap: 1%;
+    }
+}
+
 
 .gallery_resume .linear{
     border-bottom: solid 1px #9f9e9e8e;
@@ -449,8 +471,7 @@ footer .icons a{
     background: #bcbcbc11;
     color: #d7d6d6f3;
     padding: 30px;
-    width: 350px;
-    margin: 0 auto;
+    max-width: 350px;
     line-height: 2;
 }
 
