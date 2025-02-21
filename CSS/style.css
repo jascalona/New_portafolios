@@ -92,8 +92,7 @@ nav ul li a{
 main{
     background: #5e5d5d27;
     max-width: 60%;
-    margin:  5% auto;
-    height: auto;
+    margin:  0% auto;
     padding: 20px;
     border-radius: 10px;
 }
@@ -165,6 +164,11 @@ main{
     color: #fff;
     font-size: 20px;
     transition:  transform .3s;
+}
+
+.contactar button a{
+    color: #fff;
+    text-decoration: none;
 }
 
 .contactar button:hover{
@@ -246,7 +250,7 @@ section {
 /*SECTION ABOUT ICON*/
 .gallery-icons{
     max-width: 100%;
-    margin: 0 auto;
+    margin: 105 auto;
     height: 200px;
     padding: 50px;
     display: flex;

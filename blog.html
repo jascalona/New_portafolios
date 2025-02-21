@@ -4,10 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JEscalona</title>
+  <title>JEscalona - Blog</title>
 
   <!--STYLE-->
   <link rel="stylesheet" href="./CSS/style.css" />
+  <link rel="stylesheet" href="./CSS/certificates.css">
   <link rel="stylesheet" href="./CSS/responsive.css" />
   <link rel="stylesheet" href="./CSS/lib/AOS_animation.css" />
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
@@ -29,7 +30,7 @@
         <li class="nav-item"><a href="./index.html">About</a></li>
         <li class="nav-item"><a href="./services.html">Services</a></li>
         <li class="nav-item"><a href="./certificates.html">Certificates</a></li>
-        <li class="nav-item"><a href="">Blog </a></li>
+        <li class="nav-item"><a href="./blog.html">Blog </a></li>
       </ul>
     </div>
   </nav>
@@ -37,20 +38,14 @@
   <main>
     <div class="container-header">
       <div class="header">
-        <img src="./images/header2.jpg" alt="" />
-      </div>
-
-      <div class="img-perfil">
-        <img src="./images/cvyo.jpg" alt="" />
+        <img src="./images/header3.jpg" alt="" />
       </div>
 
       <div class="contenct_presntation">
-        <h5 class="title">Jose Escalona</h5>
-        <p class="eslogan"><small>¡Tu Marcas la Diferenica!</small></p>
-        <br />
+        <h5 class="title">¡Galeria de Proyectos!</h5>
+        <br>
         <p class="description">
-          Data Analyst & web developer Desarrollador creativo. Especialista en
-          bases de datos. Coordinador de servicios. Xerox.
+          En este panel se encuentran publicadas algunas de las herramientas diseñadas con el pasar del tiempo
         </p>
         <br />
 
@@ -60,7 +55,7 @@
         </div>
 
         <div class="contactar">
-          <button>Contactar <i class="bx bxl-whatsapp"></i></button>
+          <button><a href="https://wa.me/4129854529?text=Hola,%20Me%20Intersa!">Contactar <i class="bx bxl-whatsapp"></i></a></button>
           <br />
           <small>Solución Técnologica al Instante.</small>
         </div>
@@ -68,163 +63,63 @@
     </div>
 
     <div class="baner" data-aos="fade-up" data-aos-duration="1000">
-      <p>"El genio se hace con un 1% de talento y un 99% de diciplina".</p>
+      <p>"Siempre parece imposible hasta que se hace".</p>
     </div>
 
-    <section class="about">
-      <div class="container-about">
+    <section class="gallery">
+      <!--BLOG CERTIFICATES-->
 
-        <div class="item-about" data-aos="flip-left" data-aos-duration="1000">
-          <h5 class="title">Hello World! 👋</h5>
+      <article class="item-gallery" data-aos="flip-left" data-aos-duration="1000">
+        <img src="/images/blog/service_library.png" alt="">
+        <h5 class="title">Service Library</h5>
+        <small class="description">Herramienta diseñada para la consulta de codigos de aberias y piezas de servicio
+          técnico.Service Library es una plataforma de distribución digital segura, de última generación y de nivel
+          profesional Diseñado para ofrecer capacidades avanzadas de diseño e investigación. </small>
+      </article>
 
-          <div class="contenct-about">
-            <p>
-              <small>
-                Soy Jose. ¡Un joven apasionado por la informatica,
-                la musica blues, y la Cibersegurdad,!
+      <article class="item-gallery" data-aos="flip-left" data-aos-duration="1000">
+        <img src="/images/blog/virtual_asiste.png" alt="">
+        <h5 class="title">Virtual Assistance</h5>
+        <small class="description">Virtual assistance es una interfaz desarrollada con el fin de llevar un control
+          de asistencia "Entradas y Salidas" de tu personal.</small>
+      </article>
 
-                Abogo por la codificación creativa, dándote la confianza para construir cualquier cosa imaginable.
-                Me gustan los retos y desafios incluso cuando las personas creen que es imposible,
-                soy fiel creyente de la frace "¡Si puedes Imaginarlo, puedes Crearlo!".
-              </small>
-              <br><br>
-              <small>
-                Actualmente soy Coordinador de servicios tecnológicos en Xerox Corporation.
-              </small>
-            </p>
+      <article class="item-gallery" data-aos="flip-left" data-aos-duration="1000">
+        <img src="./images/blog/portal.png" alt="">
+        <h5 class="title">Partner XDV</h5>
+        <small class="description">Learning, Centro de aprendizaje de porductos Xerox & Plataformas relacionales, para
+          socios y aliados de servicio.</small>
+      </article>
 
-            <div class="btn-about">
-              <a href="">Conocer más...</a>
-            </div>
-          </div>
-        </div>
+      <article class="item-gallery" data-aos="flip-right" data-aos-duration="1000">
+        <img src="./images/blog/phonebook.png" alt="">
+        <h5 class="title">PhoneBook</h5>
+        <small class="description">PhoneBook es una aplicacion de escritorio para Windows desarrollada con el fin de
+          tener una agenda de extensiones para facilitar el acceso al usuario...</small>
+      </article>
 
-        <div class="item-about" data-aos="flip-right" data-aos-duration="1000">
-          <h5 class="title">Información personal</h5>
+      <article class="item-gallery" data-aos="flip-right" data-aos-duration="1000">
+        <img src="./images/blog/DBA.png" alt="">
+        <h5 class="title">DBA Serivices</h5>
+        <small class="description">Ofrecemos servicios de administración remota para garantizar que sus datos estén
+          siempre seguros y accesibles.</small>
+      </article>
 
-          <div class="contenct-about">
+      <article class="item-gallery" data-aos="flip-left" data-aos-duration="1000">
+        <img src="./images/blog/xdv.png" alt="">
+        <h5 class="title">XDV Corporation</h5>
+        <small class="description">Desarrollo Web, intranet dedicado a la consulta de información técnica</small>
+      </article>
 
-            <small>Edad: 22 Años</small>
-            <br>
-            <small>Correo: abrahamjose.1587"gmail.com</small>
-            <br>
-            <small>Télefono: +58 (412)985-4529</small>
-            <br>
-            <small>Dirección: Guatire Carretera Nacional</small>
-
-          </div>
-
-        </div>
-
-        <div class="gallery-icons">
-          <div class="slider-icons">
-            <span style="--i:1;"><img src="./images/icons/postgre.png" alt=""></span>
-            <span style="--i:2;"><img src="./images/icons/mysql.png" alt=""></span>
-            <span style="--i:3;"><img src="./images/icons/sql.png" alt=""></span>
-            <span style="--i:4;"><img src="./images/icons/java.png" alt=""></span>
-            <span style="--i:5;"><img src="./images/icons/php.png" alt=""></span>
-            <span style="--i:6;"><img src="./images/icons/js.png" alt=""></span>
-            <span style="--i:7;"><img src="./images/icons/html-5.png" alt=""></span>
-            <span style="--i:8;"><img src="./images/icons/css-3.png" alt=""></span>
-            <span style="--i:9;"><img src="./images/icons/git.png" alt=""></span>
-            <span style="--i:10;"><img src="./images/icons/github.png" alt=""></span>
-          </div>
-        </div>
-
-
-        <div class="gallery_resume">
-
-          <div class="card">
-            <h4>Experiencia</h4>
-
-            <h6>XEROX</h6>
-            <p>Coordinador de Servicios Tecnológicos</p>
-            <p><small>Agosto 2023/En Curso</small></p>
-            <p>
-              • Desarrollo de aplicaciones basadas en la nube.
-              <br>
-              • Desarrollo de aplicaciones para Desktop Windows.
-              <br>
-              • Control de Versiones GitHub
-              <br>
-              • Administración host cPanel & Bases de datos.
-              <br>
-              • Migración y carga de data.
-              <br>
-              • Desarrollo (Frontend).
-              <br>
-              • Desarrollo de diagramas, Estructura de datos & Logica de negocios.
-              <br>
-              • Producción y administración de servidores Microsoft.
-              <br>
-              • Desarrollo de Script para Compilación GC.
-              <br>
-              • Soporte de Nivel 2.
-            </p>
-
-            <br>
-            <div class="linear"></div>
-            <br>
-            
-            <h6>DELCOP</h6>
-            <p>Técnico de Campo</p>
-            <p><small>Agosto 2022/Abril 2023</small></p>
-            <p>
-              • Diagnosticar y detectar fallas de equipos PC,MFP.
-              <br>
-              • Ajustes e Instalación de repuestos.
-              <br>
-              • Instalación de Cableado.
-              <br>
-              • Actualizaciones de Firmware.
-              <br>
-              • Configuración de protocolos de red (SMTP,LDAP,SNMP,FTP, Contabilidad, Accesos, etc).
-              <br>
-              • Mantenimiento Preventivo y Correctivo (Hardware).
-            </p>
-
-            <br>
-            <div class="linear"></div>
-            <br>
-            
-            <h6>DELCOP-DIGITEL</h6>
-            <p>Help Desk Analyst</p>
-            <p><small>Abril 2022/Agosto 2023</small></p>
-            <p>
-              • Soporte OS en torre y sucursales.
-              <br>
-              • Monitorio (Plataforma de Impresión).
-              <br>
-              • Administración Windows Server(Print Management).
-              <br>
-              • Instalaciones de equipos PC & Impresoras.
-              <br>
-              • Inventario de suministros y piezas.
-            </p>
-          </div>
-
-
-          <div class="card">
-            <h4>Educación</h4>
-            
-            <h6>UNEFA</h6>
-            <p>Análisis y diseño de Sistemas</p>
-            <p><small>Septiembre 2022</small></p>
-
-            <br>
-            <div class="linear"></div>
-            <br>
-
-            <h6>Educación Diversificada</h6>
-            <p>Bachiller en Ciencias</p>
-            <p><small>Julio 2020</small></p>
-
-
-          </div>
-
-        </div>
+      <article class="item-gallery" data-aos="flip-left" data-aos-duration="1000">
+        <img src="./images/blog/supor_kip.png" alt="">
+        <h5 class="title">Support KIP</h5>
+        <small class="description">Desarrollo Web, intranet dedicado a la consulta de información técnica en Plotters
+          KIP</small>
+      </article>
 
     </section>
+    <br><br><br><br><br><br><br>
   </main>
 
   <!--START FOOTER-->
